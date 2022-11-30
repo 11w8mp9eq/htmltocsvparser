@@ -1,10 +1,14 @@
  <?php
-$html = file_get_contents('wo_for_parse.html');
+
+
 /**
 *
 * Read data from HTML.
 *
 */
+
+$html = file_get_contents('wo_for_parse.html');
+
 $dom = new DOMDocument();
 @ $dom->loadHTML($html);
 
