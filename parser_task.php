@@ -1,6 +1,5 @@
  <?php
 
-
 /**
 *
 * Read data from HTML.
